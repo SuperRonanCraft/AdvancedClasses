@@ -1,0 +1,16 @@
+main: me.SuperRonanCraft.AdvancedClasses.Main
+version: 1.0.0
+name: AdvancedClasses
+author: SuperRonanCraft
+
+permissions:
+    advancedclasses.*:
+        children:
+            autofarm.reload: true
+    advancedclasses.reload:
+        description: Permission to reload plugin
+        default: op
+        
+commands:
+    advancedclasses:
+        aliases: [ac]

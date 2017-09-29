@@ -1,0 +1,17 @@
+Settings:
+  Name: '&e&lFarmer'
+
+## Experience is based per class, not per 
+Experience:
+  Crops:
+    ## Every time the player collects wheat (not pickup, they must physically do the work)
+    Wheat: 5
+
+Abilities:
+  Crops:
+    Wheat:
+      Ranges:
+        ## Level amount, and the range the crop will grow
+        ## Anything before the first level will be considered as 0 range
+        1: 0
+        
